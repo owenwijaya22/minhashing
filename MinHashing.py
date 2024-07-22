@@ -8,6 +8,7 @@ df = pd.DataFrame(data)
 
 np.random.seed(11)
 
+#dropping irrelevant datas
 df = df.drop(
     [
         "StudentID",
